@@ -1,0 +1,12 @@
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Client\bin\Debug\Messenger.Client.dll.config
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Client\bin\Debug\Messenger.Client.dll
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Client\bin\Debug\Messenger.Client.pdb
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Client\bin\Debug\Messenger.Common.dll
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Client\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Client\bin\Debug\Newtonsoft.Json.dll
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Client\bin\Debug\Messenger.Common.pdb
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Client\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Client\bin\Debug\Newtonsoft.Json.xml
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Client\obj\Debug\Messenger.Client.csprojResolveAssemblyReference.cache
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Client\obj\Debug\Messenger.Client.dll
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Client\obj\Debug\Messenger.Client.pdb

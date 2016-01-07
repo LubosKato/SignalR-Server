@@ -1,0 +1,13 @@
+d:\Dropbox\CV\8\code Willis\signalr server\CSClient\obj\Debug\CSClient.csprojResolveAssemblyReference.cache
+D:\Dropbox\CV\8\code Willis\signalr server\CSClient\bin\Debug\CSClient.dll.config
+D:\Dropbox\CV\8\code Willis\signalr server\CSClient\bin\Debug\CSClient.dll
+D:\Dropbox\CV\8\code Willis\signalr server\CSClient\bin\Debug\CSClient.pdb
+D:\Dropbox\CV\8\code Willis\signalr server\CSClient\bin\Debug\Messenger.Client.dll
+D:\Dropbox\CV\8\code Willis\signalr server\CSClient\bin\Debug\Messenger.Common.dll
+D:\Dropbox\CV\8\code Willis\signalr server\CSClient\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Dropbox\CV\8\code Willis\signalr server\CSClient\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\Dropbox\CV\8\code Willis\signalr server\CSClient\bin\Debug\Messenger.Client.pdb
+D:\Dropbox\CV\8\code Willis\signalr server\CSClient\bin\Debug\Messenger.Common.pdb
+D:\Dropbox\CV\8\code Willis\signalr server\CSClient\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+D:\Dropbox\CV\8\code Willis\signalr server\CSClient\obj\Debug\CSClient.dll
+D:\Dropbox\CV\8\code Willis\signalr server\CSClient\obj\Debug\CSClient.pdb

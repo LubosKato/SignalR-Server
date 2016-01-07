@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.Server", "Messenger.Server\Messenger.Server.csproj", "{BEC48BD4-76E2-4F47-A88F-F5CF1254900E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSClient", "CSClient\CSClient.csproj", "{82B9E6D7-4B46-4468-A73D-ADF1342DAA2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLClient", "HTMLClient\HTMLClient.csproj", "{D50D7538-2773-4D97-B2B4-AF003AA37A94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5A201DDE-F099-4FDB-8825-D06D22DB657E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.Client", "Messenger.Client\Messenger.Client.csproj", "{41379009-DC8C-4362-B2FD-62EC7301CA92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.Common", "Messenger.Common\Messenger.Common.csproj", "{CD326B82-E811-4B1C-80A7-789E6CD37975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEC48BD4-76E2-4F47-A88F-F5CF1254900E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC48BD4-76E2-4F47-A88F-F5CF1254900E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC48BD4-76E2-4F47-A88F-F5CF1254900E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC48BD4-76E2-4F47-A88F-F5CF1254900E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B9E6D7-4B46-4468-A73D-ADF1342DAA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B9E6D7-4B46-4468-A73D-ADF1342DAA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B9E6D7-4B46-4468-A73D-ADF1342DAA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B9E6D7-4B46-4468-A73D-ADF1342DAA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50D7538-2773-4D97-B2B4-AF003AA37A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50D7538-2773-4D97-B2B4-AF003AA37A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50D7538-2773-4D97-B2B4-AF003AA37A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50D7538-2773-4D97-B2B4-AF003AA37A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41379009-DC8C-4362-B2FD-62EC7301CA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41379009-DC8C-4362-B2FD-62EC7301CA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41379009-DC8C-4362-B2FD-62EC7301CA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41379009-DC8C-4362-B2FD-62EC7301CA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD326B82-E811-4B1C-80A7-789E6CD37975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD326B82-E811-4B1C-80A7-789E6CD37975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD326B82-E811-4B1C-80A7-789E6CD37975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD326B82-E811-4B1C-80A7-789E6CD37975}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

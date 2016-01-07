@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Messenger Tester</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="form-horizontal">
+            <div class="form-group">
+                <label for="messagetitle" class="col-sm-2 control-label">Message Title</label>
+                <div class="col-sm-10">
+                    <input class="form-control" id="messagetitle" placeholder="message title" value="Test Message">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message" class="col-sm-2 control-label" value="This is a test message">Message</label>
+                <div class="col-sm-10">
+                    <input class="form-control" id="message" placeholder="message">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="messagetype" class="col-sm-2 control-label">Message Type</label>
+                <div class="col-sm-10">
+                    <select id="messagetype" class="form-control">
+                        <option value="Info">Info</option>
+                        <option value="Error">Error</option>
+                        <option value="Warning">Warning</option>
+                        <option value="Success">Success</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="button" id="sendmessage" class="btn">Send</button>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" id="displayname" />
+        <ul id="discussion"></ul>
+    </div>
+    <!--Script references. -->
+    <!--Reference the jQuery library. -->
+    <script src="Scripts/jquery-1.6.4.min.js"></script>
+    <!--Reference the SignalR library. -->
+    <script src="Scripts/jquery.signalR-2.2.0.min.js"></script>
+
+    <!--Add script to update the page and send messages.-->
+    <script type="text/javascript">
+        $(function () {
+            var connection = $.hubConnection('https://gbips-i-dw735/Messenger/');
+            var messengerHub = connection.createHubProxy('messengerHub');
+
+            // Create a function that the hub can call to broadcast messages.
+            messengerHub.on('broadcastMessage', function (message) {
+                console.log(message);
+                //// Html encode display name and message.
+                //// Add the message to the page.
+                $('#discussion').append('<li><strong>' + message.title + '</strong><dl>' +
+                    '<dt>Content</dt><dd>' + message.content + '</dd>' +
+                    '<dt>Type</dt><dd>' + message.type + '</dd>' +
+                    '<dt>Sender</dt><dd>' + message.sender + '</dd>' +
+                    '</dl></li>');
+            });
+            // Get the user name and store it to prepend to messages.
+            //jw = dc7c3655-18c1-4dbc-b27f-fbaa19d50fbd
+            $('#displayname').val(prompt('Enter your user id:', 'dc7c3655-18c1-4dbc-b27f-fbaa19d50fbd'));
+            // Set initial focus to message input box.
+
+            // Set initial focus to message input box.
+            $('#message').val('This is a test message').focus();
+            connection.logging = true;
+            // Start the connection.
+            connection.start({ withCredentials: true }).done(function () {
+
+                $('#sendmessage').click(function () {
+                    //Call the Send method on the hub.
+                    messengerHub.invoke('send', {
+                        
+                        title: $('#messagetitle').val(),
+                        content: $('#message').val(),
+                        who: $('#displayname').val(),
+                        type: $('#messagetype').val(),
+                        sender: 'test'
+                    });
+
+                    // Clear text box and reset focus for next comment.
+                    $('#message').val('This is a test message').focus();
+                });
+            });
+        });
+    </script>
+</body>
+</html>

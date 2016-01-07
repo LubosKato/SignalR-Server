@@ -1,0 +1,5 @@
+d:\Dropbox\CV\8\code Willis\signalr server\Messenger.Common\obj\Debug\Messenger.Common.csprojResolveAssemblyReference.cache
+d:\Dropbox\CV\8\code Willis\signalr server\Messenger.Common\obj\Debug\Messenger.Common.dll
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Common\bin\Debug\Messenger.Common.dll
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Common\bin\Debug\Messenger.Common.pdb
+D:\Dropbox\CV\8\code Willis\signalr server\Messenger.Common\obj\Debug\Messenger.Common.pdb

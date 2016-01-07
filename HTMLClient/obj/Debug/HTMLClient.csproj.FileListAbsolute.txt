@@ -1,0 +1,6 @@
+D:\Dropbox\CV\8\code Willis\signalr server\HTMLClient\bin\HTMLClient.dll.config
+D:\Dropbox\CV\8\code Willis\signalr server\HTMLClient\bin\HTMLClient.dll
+D:\Dropbox\CV\8\code Willis\signalr server\HTMLClient\bin\HTMLClient.pdb
+D:\Dropbox\CV\8\code Willis\signalr server\HTMLClient\obj\Debug\HTMLClient.csprojResolveAssemblyReference.cache
+D:\Dropbox\CV\8\code Willis\signalr server\HTMLClient\obj\Debug\HTMLClient.dll
+D:\Dropbox\CV\8\code Willis\signalr server\HTMLClient\obj\Debug\HTMLClient.pdb
